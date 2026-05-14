@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Unique Minimalist Design: Man Writing in Ledger -->
+
+    <!-- Open Ledger (Perspective view) -->
+    <path
+        android:fillColor="#F0F0F0"
+        android:pathData="M25,65 L54,75 L54,92 L25,82 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,75 L83,65 L83,82 L54,92 Z" />
+    <path
+        android:fillColor="@color/brand_primary"
+        android:pathData="M25,65 L54,75 L83,65 L83,68 L54,78 L25,68 Z" />
+
+    <!-- Person Silhouette -->
+    <!-- Head -->
+    <path
+        android:fillColor="@color/brand_primary"
+        android:pathData="M44,22 A7,7 0,1,1 58,22 A7,7 0,1,1 44,22" />
+
+    <!-- Torso/Shoulder leaning in -->
+    <path
+        android:fillColor="@color/brand_primary"
+        android:pathData="M32,35 Q51,30 70,35 L75,52 Q51,48 27,52 Z" />
+
+    <!-- Writing Hand & Premium Pen -->
+    <path
+        android:fillColor="@color/brand_primary"
+        android:pathData="M65,42 L72,62 L65,65 L58,45 Z" />
+
+    <!-- The Pen (Gold Accent) -->
+    <path
+        android:fillColor="@color/brand_accent"
+        android:pathData="M68,58 L76,50 L80,54 L72,62 Z" />
+
+    <!-- Pen Tip -->
+    <path
+        android:fillColor="@color/brand_primary"
+        android:pathData="M68,58 L66,61 L69,60 Z" />
+
+    <!-- Subtle Ledger Lines -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M30,72 h15 M30,78 h10 M60,65 h15 M60,71 h12"
+        android:strokeWidth="1"
+        android:strokeColor="@color/brand_primary"
+        android:strokeAlpha="0.2" />
+
+</vector>

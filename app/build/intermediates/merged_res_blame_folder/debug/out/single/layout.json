@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "com.gramakhata.app-mergeDebugResources-54:/layout/dialog_add_transaction.xml",
+        "source": "com.gramakhata.app-main-57:/layout/dialog_add_transaction.xml"
+    },
+    {
+        "merged": "com.gramakhata.app-mergeDebugResources-54:/layout/activity_add_customer.xml",
+        "source": "com.gramakhata.app-main-57:/layout/activity_add_customer.xml"
+    },
+    {
+        "merged": "com.gramakhata.app-mergeDebugResources-54:/layout/activity_splash.xml",
+        "source": "com.gramakhata.app-main-57:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "com.gramakhata.app-mergeDebugResources-54:/layout/activity_customer_detail.xml",
+        "source": "com.gramakhata.app-main-57:/layout/activity_customer_detail.xml"
+    },
+    {
+        "merged": "com.gramakhata.app-mergeDebugResources-54:/layout/activity_account_settings.xml",
+        "source": "com.gramakhata.app-main-57:/layout/activity_account_settings.xml"
+    },
+    {
+        "merged": "com.gramakhata.app-mergeDebugResources-54:/layout/activity_change_password.xml",
+        "source": "com.gramakhata.app-main-57:/layout/activity_change_password.xml"
+    },
+    {
+        "merged": "com.gramakhata.app-mergeDebugResources-54:/layout/activity_login.xml",
+        "source": "com.gramakhata.app-main-57:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.gramakhata.app-mergeDebugResources-54:/layout/item_customer.xml",
+        "source": "com.gramakhata.app-main-57:/layout/item_customer.xml"
+    },
+    {
+        "merged": "com.gramakhata.app-mergeDebugResources-54:/layout/item_transaction.xml",
+        "source": "com.gramakhata.app-main-57:/layout/item_transaction.xml"
+    },
+    {
+        "merged": "com.gramakhata.app-mergeDebugResources-54:/layout/activity_main.xml",
+        "source": "com.gramakhata.app-main-57:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.gramakhata.app-mergeDebugResources-54:/layout/activity_register.xml",
+        "source": "com.gramakhata.app-main-57:/layout/activity_register.xml"
+    }
+]

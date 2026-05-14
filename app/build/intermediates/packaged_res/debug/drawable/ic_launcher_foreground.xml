@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Unique "Book & Pen" Concept (Minimalist & Professional) -->
+
+    <!-- Open Book Structure -->
+    <group
+        android:translateX="14"
+        android:translateY="24">
+
+        <!-- Left Page -->
+        <path
+            android:fillColor="#F5F5F5"
+            android:pathData="M40,10 L10,15 L10,55 L40,60 Z"
+            android:strokeWidth="3"
+            android:strokeColor="@color/brand_primary"
+            android:strokeLineJoin="round" />
+
+        <!-- Right Page -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M40,10 L70,15 L70,55 L40,60 Z"
+            android:strokeWidth="3"
+            android:strokeColor="@color/brand_primary"
+            android:strokeLineJoin="round" />
+
+        <!-- Center Spine -->
+        <path
+            android:fillColor="@color/brand_primary"
+            android:pathData="M39,10 L41,10 L41,60 L39,60 Z" />
+
+        <!-- Ledger Lines on Left Page -->
+        <path
+            android:fillColor="#00000000"
+            android:pathData="M15,22 h15 M15,32 h20 M15,42 h18"
+            android:strokeWidth="1.5"
+            android:strokeColor="@color/brand_primary"
+            android:strokeAlpha="0.2" />
+
+        <!-- Ledger Lines on Right Page -->
+        <path
+            android:fillColor="#00000000"
+            android:pathData="M45,22 h15 M45,32 h20 M45,42 h18"
+            android:strokeWidth="1.5"
+            android:strokeColor="@color/brand_primary"
+            android:strokeAlpha="0.2" />
+
+    </group>
+
+    <!-- Professional Fountain Pen (Resting Diagonally) -->
+    <group
+        android:translateX="15"
+        android:translateY="15">
+
+        <!-- Pen Body (Gold) -->
+        <path
+            android:fillColor="@color/brand_accent"
+            android:pathData="M70,15 L40,55 L32,49 L62,09 Z" />
+
+        <!-- Pen Tip (Pointing to the book) -->
+        <path
+            android:fillColor="@color/brand_primary"
+            android:pathData="M32,49 L25,58 L35,55 Z" />
+
+        <!-- Pen Cap Detail (Teal) -->
+        <path
+            android:fillColor="@color/brand_primary"
+            android:pathData="M62,09 L68,03 L76,09 L70,15 Z" />
+
+        <!-- Pen Grip / Ring -->
+        <path
+            android:fillColor="@color/brand_primary"
+            android:pathData="M42,52 L38,48 L41,45 L45,49 Z" />
+    </group>
+
+</vector>

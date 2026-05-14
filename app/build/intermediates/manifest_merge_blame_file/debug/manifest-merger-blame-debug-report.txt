@@ -1,0 +1,240 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.gramakhata.app"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.CALL_PHONE" />
+11-->C:\Users\Priyanka Meti\OneDrive\Desktop\Adv Java\GramaKhata2\app\src\main\AndroidManifest.xml:4:5-68
+11-->C:\Users\Priyanka Meti\OneDrive\Desktop\Adv Java\GramaKhata2\app\src\main\AndroidManifest.xml:4:22-66
+12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+12-->C:\Users\Priyanka Meti\OneDrive\Desktop\Adv Java\GramaKhata2\app\src\main\AndroidManifest.xml:5:5-79
+12-->C:\Users\Priyanka Meti\OneDrive\Desktop\Adv Java\GramaKhata2\app\src\main\AndroidManifest.xml:5:22-77
+13    <uses-permission
+13-->C:\Users\Priyanka Meti\OneDrive\Desktop\Adv Java\GramaKhata2\app\src\main\AndroidManifest.xml:6:5-107
+14        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+14-->C:\Users\Priyanka Meti\OneDrive\Desktop\Adv Java\GramaKhata2\app\src\main\AndroidManifest.xml:6:22-78
+15        android:maxSdkVersion="28" />
+15-->C:\Users\Priyanka Meti\OneDrive\Desktop\Adv Java\GramaKhata2\app\src\main\AndroidManifest.xml:6:79-105
+16    <uses-permission android:name="android.permission.CAMERA" />
+16-->C:\Users\Priyanka Meti\OneDrive\Desktop\Adv Java\GramaKhata2\app\src\main\AndroidManifest.xml:7:5-64
+16-->C:\Users\Priyanka Meti\OneDrive\Desktop\Adv Java\GramaKhata2\app\src\main\AndroidManifest.xml:7:22-62
+17
+18    <permission
+18-->[androidx.core:core:1.12.0] C:\Users\Priyanka Meti\.gradle\caches\transforms-3\c634865c58dba19226839d38c9b3ea5a\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
+19        android:name="com.gramakhata.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+19-->[androidx.core:core:1.12.0] C:\Users\Priyanka Meti\.gradle\caches\transforms-3\c634865c58dba19226839d38c9b3ea5a\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
+20        android:protectionLevel="signature" />
+20-->[androidx.core:core:1.12.0] C:\Users\Priyanka Meti\.gradle\caches\transforms-3\c634865c58dba19226839d38c9b3ea5a\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
+21
+22    <uses-permission android:name="com.gramakhata.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+22-->[androidx.core:core:1.12.0] C:\Users\Priyanka Meti\.gradle\caches\transforms-3\c634865c58dba19226839d38c9b3ea5a\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
+22-->[androidx.core:core:1.12.0] C:\Users\Priyanka Meti\.gradle\caches\transforms-3\c634865c58dba19226839d38c9b3ea5a\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
+23
+24    <application
+24-->C:\Users\Priyanka Meti\OneDrive\Desktop\Adv Java\GramaKhata2\app\src\main\AndroidManifest.xml:9:5-73:19
+25        android:allowBackup="true"
+25-->C:\Users\Priyanka Meti\OneDrive\Desktop\Adv Java\GramaKhata2\app\src\main\AndroidManifest.xml:10:9-35
+26        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+26-->[androidx.core:core:1.12.0] C:\Users\Priyanka Meti\.gradle\caches\transforms-3\c634865c58dba19226839d38c9b3ea5a\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
+27        android:debuggable="true"
+28        android:extractNativeLibs="false"
+29        android:icon="@mipmap/ic_launcher"
+29-->C:\Users\Priyanka Meti\OneDrive\Desktop\Adv Java\GramaKhata2\app\src\main\AndroidManifest.xml:11:9-43
+30        android:label="@string/app_name"
+30-->C:\Users\Priyanka Meti\OneDrive\Desktop\Adv Java\GramaKhata2\app\src\main\AndroidManifest.xml:12:9-41
+31        android:roundIcon="@mipmap/ic_launcher_round"
+31-->C:\Users\Priyanka Meti\OneDrive\Desktop\Adv Java\GramaKhata2\app\src\main\AndroidManifest.xml:13:9-54
+32        android:supportsRtl="true"
+32-->C:\Users\Priyanka Meti\OneDrive\Desktop\Adv Java\GramaKhata2\app\src\main\AndroidManifest.xml:14:9-35
+33        android:testOnly="true"
+34        android:theme="@style/Theme.GramaKhata" >
+34-->C:\Users\Priyanka Meti\OneDrive\Desktop\Adv Java\GramaKhata2\app\src\main\AndroidManifest.xml:15:9-48
+35        <activity
+35-->C:\Users\Priyanka Meti\OneDrive\Desktop\Adv Java\GramaKhata2\app\src\main\AndroidManifest.xml:17:9-25:20
+36            android:name="com.gramakhata.app.ui.SplashActivity"
+36-->C:\Users\Priyanka Meti\OneDrive\Desktop\Adv Java\GramaKhata2\app\src\main\AndroidManifest.xml:18:13-46
+37            android:exported="true"
+37-->C:\Users\Priyanka Meti\OneDrive\Desktop\Adv Java\GramaKhata2\app\src\main\AndroidManifest.xml:19:13-36
+38            android:theme="@style/Theme.GramaKhata.Splash" >
+38-->C:\Users\Priyanka Meti\OneDrive\Desktop\Adv Java\GramaKhata2\app\src\main\AndroidManifest.xml:20:13-59
+39            <intent-filter>
+39-->C:\Users\Priyanka Meti\OneDrive\Desktop\Adv Java\GramaKhata2\app\src\main\AndroidManifest.xml:21:13-24:29
+40                <action android:name="android.intent.action.MAIN" />
+40-->C:\Users\Priyanka Meti\OneDrive\Desktop\Adv Java\GramaKhata2\app\src\main\AndroidManifest.xml:22:17-69
+40-->C:\Users\Priyanka Meti\OneDrive\Desktop\Adv Java\GramaKhata2\app\src\main\AndroidManifest.xml:22:25-66
+41
+42                <category android:name="android.intent.category.LAUNCHER" />
+42-->C:\Users\Priyanka Meti\OneDrive\Desktop\Adv Java\GramaKhata2\app\src\main\AndroidManifest.xml:23:17-77
+42-->C:\Users\Priyanka Meti\OneDrive\Desktop\Adv Java\GramaKhata2\app\src\main\AndroidManifest.xml:23:27-74
+43            </intent-filter>
+44        </activity>
+45        <activity
+45-->C:\Users\Priyanka Meti\OneDrive\Desktop\Adv Java\GramaKhata2\app\src\main\AndroidManifest.xml:27:9-30:57
+46            android:name="com.gramakhata.app.ui.MainActivity"
+46-->C:\Users\Priyanka Meti\OneDrive\Desktop\Adv Java\GramaKhata2\app\src\main\AndroidManifest.xml:28:13-44
+47            android:exported="false"
+47-->C:\Users\Priyanka Meti\OneDrive\Desktop\Adv Java\GramaKhata2\app\src\main\AndroidManifest.xml:29:13-37
+48            android:windowSoftInputMode="adjustResize" />
+48-->C:\Users\Priyanka Meti\OneDrive\Desktop\Adv Java\GramaKhata2\app\src\main\AndroidManifest.xml:30:13-55
+49        <activity
+49-->C:\Users\Priyanka Meti\OneDrive\Desktop\Adv Java\GramaKhata2\app\src\main\AndroidManifest.xml:32:9-35:58
+50            android:name="com.gramakhata.app.ui.LoginActivity"
+50-->C:\Users\Priyanka Meti\OneDrive\Desktop\Adv Java\GramaKhata2\app\src\main\AndroidManifest.xml:33:13-45
+51            android:exported="false"
+51-->C:\Users\Priyanka Meti\OneDrive\Desktop\Adv Java\GramaKhata2\app\src\main\AndroidManifest.xml:34:13-37
+52            android:windowSoftInputMode="adjustResize" />
+52-->C:\Users\Priyanka Meti\OneDrive\Desktop\Adv Java\GramaKhata2\app\src\main\AndroidManifest.xml:35:13-55
+53        <activity
+53-->C:\Users\Priyanka Meti\OneDrive\Desktop\Adv Java\GramaKhata2\app\src\main\AndroidManifest.xml:37:9-40:58
+54            android:name="com.gramakhata.app.ui.RegisterActivity"
+54-->C:\Users\Priyanka Meti\OneDrive\Desktop\Adv Java\GramaKhata2\app\src\main\AndroidManifest.xml:38:13-48
+55            android:exported="false"
+55-->C:\Users\Priyanka Meti\OneDrive\Desktop\Adv Java\GramaKhata2\app\src\main\AndroidManifest.xml:39:13-37
+56            android:windowSoftInputMode="adjustResize" />
+56-->C:\Users\Priyanka Meti\OneDrive\Desktop\Adv Java\GramaKhata2\app\src\main\AndroidManifest.xml:40:13-55
+57        <activity
+57-->C:\Users\Priyanka Meti\OneDrive\Desktop\Adv Java\GramaKhata2\app\src\main\AndroidManifest.xml:42:9-45:57
+58            android:name="com.gramakhata.app.ui.customers.AddCustomerActivity"
+58-->C:\Users\Priyanka Meti\OneDrive\Desktop\Adv Java\GramaKhata2\app\src\main\AndroidManifest.xml:43:13-61
+59            android:exported="false"
+59-->C:\Users\Priyanka Meti\OneDrive\Desktop\Adv Java\GramaKhata2\app\src\main\AndroidManifest.xml:44:13-37
+60            android:windowSoftInputMode="adjustResize" />
+60-->C:\Users\Priyanka Meti\OneDrive\Desktop\Adv Java\GramaKhata2\app\src\main\AndroidManifest.xml:45:13-55
+61        <activity
+61-->C:\Users\Priyanka Meti\OneDrive\Desktop\Adv Java\GramaKhata2\app\src\main\AndroidManifest.xml:47:9-50:57
+62            android:name="com.gramakhata.app.ui.customers.CustomerDetailActivity"
+62-->C:\Users\Priyanka Meti\OneDrive\Desktop\Adv Java\GramaKhata2\app\src\main\AndroidManifest.xml:48:13-64
+63            android:exported="false"
+63-->C:\Users\Priyanka Meti\OneDrive\Desktop\Adv Java\GramaKhata2\app\src\main\AndroidManifest.xml:49:13-37
+64            android:windowSoftInputMode="adjustResize" />
+64-->C:\Users\Priyanka Meti\OneDrive\Desktop\Adv Java\GramaKhata2\app\src\main\AndroidManifest.xml:50:13-55
+65        <activity
+65-->C:\Users\Priyanka Meti\OneDrive\Desktop\Adv Java\GramaKhata2\app\src\main\AndroidManifest.xml:52:9-55:54
+66            android:name="com.gramakhata.app.ui.AccountSettingsActivity"
+66-->C:\Users\Priyanka Meti\OneDrive\Desktop\Adv Java\GramaKhata2\app\src\main\AndroidManifest.xml:53:13-55
+67            android:exported="false"
+67-->C:\Users\Priyanka Meti\OneDrive\Desktop\Adv Java\GramaKhata2\app\src\main\AndroidManifest.xml:54:13-37
+68            android:theme="@style/Theme.GramaKhata" />
+68-->C:\Users\Priyanka Meti\OneDrive\Desktop\Adv Java\GramaKhata2\app\src\main\AndroidManifest.xml:55:13-52
+69        <activity
+69-->C:\Users\Priyanka Meti\OneDrive\Desktop\Adv Java\GramaKhata2\app\src\main\AndroidManifest.xml:57:9-61:54
+70            android:name="com.gramakhata.app.ui.ChangePasswordActivity"
+70-->C:\Users\Priyanka Meti\OneDrive\Desktop\Adv Java\GramaKhata2\app\src\main\AndroidManifest.xml:58:13-54
+71            android:exported="false"
+71-->C:\Users\Priyanka Meti\OneDrive\Desktop\Adv Java\GramaKhata2\app\src\main\AndroidManifest.xml:59:13-37
+72            android:theme="@style/Theme.GramaKhata"
+72-->C:\Users\Priyanka Meti\OneDrive\Desktop\Adv Java\GramaKhata2\app\src\main\AndroidManifest.xml:61:13-52
+73            android:windowSoftInputMode="adjustResize" />
+73-->C:\Users\Priyanka Meti\OneDrive\Desktop\Adv Java\GramaKhata2\app\src\main\AndroidManifest.xml:60:13-55
+74
+75        <provider
+76            android:name="androidx.core.content.FileProvider"
+76-->C:\Users\Priyanka Meti\OneDrive\Desktop\Adv Java\GramaKhata2\app\src\main\AndroidManifest.xml:64:13-62
+77            android:authorities="com.gramakhata.app.fileprovider"
+77-->C:\Users\Priyanka Meti\OneDrive\Desktop\Adv Java\GramaKhata2\app\src\main\AndroidManifest.xml:65:13-64
+78            android:exported="false"
+78-->C:\Users\Priyanka Meti\OneDrive\Desktop\Adv Java\GramaKhata2\app\src\main\AndroidManifest.xml:66:13-37
+79            android:grantUriPermissions="true" >
+79-->C:\Users\Priyanka Meti\OneDrive\Desktop\Adv Java\GramaKhata2\app\src\main\AndroidManifest.xml:67:13-47
+80            <meta-data
+80-->C:\Users\Priyanka Meti\OneDrive\Desktop\Adv Java\GramaKhata2\app\src\main\AndroidManifest.xml:68:13-70:53
+81                android:name="android.support.FILE_PROVIDER_PATHS"
+81-->C:\Users\Priyanka Meti\OneDrive\Desktop\Adv Java\GramaKhata2\app\src\main\AndroidManifest.xml:69:17-67
+82                android:resource="@xml/file_paths" />
+82-->C:\Users\Priyanka Meti\OneDrive\Desktop\Adv Java\GramaKhata2\app\src\main\AndroidManifest.xml:70:17-51
+83        </provider>
+84        <provider
+84-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Priyanka Meti\.gradle\caches\transforms-3\fe16f73b12db045ffb2bf2e90ec29524\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+85            android:name="androidx.startup.InitializationProvider"
+85-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Priyanka Meti\.gradle\caches\transforms-3\fe16f73b12db045ffb2bf2e90ec29524\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+86            android:authorities="com.gramakhata.app.androidx-startup"
+86-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Priyanka Meti\.gradle\caches\transforms-3\fe16f73b12db045ffb2bf2e90ec29524\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+87            android:exported="false" >
+87-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Priyanka Meti\.gradle\caches\transforms-3\fe16f73b12db045ffb2bf2e90ec29524\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+88            <meta-data
+88-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Priyanka Meti\.gradle\caches\transforms-3\fe16f73b12db045ffb2bf2e90ec29524\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+89                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+89-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Priyanka Meti\.gradle\caches\transforms-3\fe16f73b12db045ffb2bf2e90ec29524\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+90                android:value="androidx.startup" />
+90-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Priyanka Meti\.gradle\caches\transforms-3\fe16f73b12db045ffb2bf2e90ec29524\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+91            <meta-data
+91-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Priyanka Meti\.gradle\caches\transforms-3\70b71d06ba099ec54dc76e369a482f9a\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:29:13-31:52
+92                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+92-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Priyanka Meti\.gradle\caches\transforms-3\70b71d06ba099ec54dc76e369a482f9a\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:30:17-78
+93                android:value="androidx.startup" />
+93-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Priyanka Meti\.gradle\caches\transforms-3\70b71d06ba099ec54dc76e369a482f9a\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:31:17-49
+94            <meta-data
+94-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Priyanka Meti\.gradle\caches\transforms-3\4500fb234d907684d5cb88345353e771\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+95                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+95-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Priyanka Meti\.gradle\caches\transforms-3\4500fb234d907684d5cb88345353e771\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+96                android:value="androidx.startup" />
+96-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Priyanka Meti\.gradle\caches\transforms-3\4500fb234d907684d5cb88345353e771\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+97        </provider>
+98
+99        <uses-library
+99-->[androidx.window:window:1.0.0] C:\Users\Priyanka Meti\.gradle\caches\transforms-3\4747a79c91943f8a321e10a4331d4957\transformed\jetified-window-1.0.0\AndroidManifest.xml:25:9-27:40
+100            android:name="androidx.window.extensions"
+100-->[androidx.window:window:1.0.0] C:\Users\Priyanka Meti\.gradle\caches\transforms-3\4747a79c91943f8a321e10a4331d4957\transformed\jetified-window-1.0.0\AndroidManifest.xml:26:13-54
+101            android:required="false" />
+101-->[androidx.window:window:1.0.0] C:\Users\Priyanka Meti\.gradle\caches\transforms-3\4747a79c91943f8a321e10a4331d4957\transformed\jetified-window-1.0.0\AndroidManifest.xml:27:13-37
+102        <uses-library
+102-->[androidx.window:window:1.0.0] C:\Users\Priyanka Meti\.gradle\caches\transforms-3\4747a79c91943f8a321e10a4331d4957\transformed\jetified-window-1.0.0\AndroidManifest.xml:28:9-30:40
+103            android:name="androidx.window.sidecar"
+103-->[androidx.window:window:1.0.0] C:\Users\Priyanka Meti\.gradle\caches\transforms-3\4747a79c91943f8a321e10a4331d4957\transformed\jetified-window-1.0.0\AndroidManifest.xml:29:13-51
+104            android:required="false" />
+104-->[androidx.window:window:1.0.0] C:\Users\Priyanka Meti\.gradle\caches\transforms-3\4747a79c91943f8a321e10a4331d4957\transformed\jetified-window-1.0.0\AndroidManifest.xml:30:13-37
+105
+106        <service
+106-->[androidx.room:room-runtime:2.6.1] C:\Users\Priyanka Meti\.gradle\caches\transforms-3\3831a23d75d3d6fc7437f1a0f5ee229c\transformed\room-runtime-2.6.1\AndroidManifest.xml:24:9-28:63
+107            android:name="androidx.room.MultiInstanceInvalidationService"
+107-->[androidx.room:room-runtime:2.6.1] C:\Users\Priyanka Meti\.gradle\caches\transforms-3\3831a23d75d3d6fc7437f1a0f5ee229c\transformed\room-runtime-2.6.1\AndroidManifest.xml:25:13-74
+108            android:directBootAware="true"
+108-->[androidx.room:room-runtime:2.6.1] C:\Users\Priyanka Meti\.gradle\caches\transforms-3\3831a23d75d3d6fc7437f1a0f5ee229c\transformed\room-runtime-2.6.1\AndroidManifest.xml:26:13-43
+109            android:exported="false" />
+109-->[androidx.room:room-runtime:2.6.1] C:\Users\Priyanka Meti\.gradle\caches\transforms-3\3831a23d75d3d6fc7437f1a0f5ee229c\transformed\room-runtime-2.6.1\AndroidManifest.xml:27:13-37
+110
+111        <receiver
+111-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Priyanka Meti\.gradle\caches\transforms-3\4500fb234d907684d5cb88345353e771\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+112            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+112-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Priyanka Meti\.gradle\caches\transforms-3\4500fb234d907684d5cb88345353e771\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+113            android:directBootAware="false"
+113-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Priyanka Meti\.gradle\caches\transforms-3\4500fb234d907684d5cb88345353e771\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+114            android:enabled="true"
+114-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Priyanka Meti\.gradle\caches\transforms-3\4500fb234d907684d5cb88345353e771\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+115            android:exported="true"
+115-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Priyanka Meti\.gradle\caches\transforms-3\4500fb234d907684d5cb88345353e771\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+116            android:permission="android.permission.DUMP" >
+116-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Priyanka Meti\.gradle\caches\transforms-3\4500fb234d907684d5cb88345353e771\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+117            <intent-filter>
+117-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Priyanka Meti\.gradle\caches\transforms-3\4500fb234d907684d5cb88345353e771\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+118                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+118-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Priyanka Meti\.gradle\caches\transforms-3\4500fb234d907684d5cb88345353e771\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+118-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Priyanka Meti\.gradle\caches\transforms-3\4500fb234d907684d5cb88345353e771\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+119            </intent-filter>
+120            <intent-filter>
+120-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Priyanka Meti\.gradle\caches\transforms-3\4500fb234d907684d5cb88345353e771\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+121                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+121-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Priyanka Meti\.gradle\caches\transforms-3\4500fb234d907684d5cb88345353e771\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+121-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Priyanka Meti\.gradle\caches\transforms-3\4500fb234d907684d5cb88345353e771\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+122            </intent-filter>
+123            <intent-filter>
+123-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Priyanka Meti\.gradle\caches\transforms-3\4500fb234d907684d5cb88345353e771\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+124                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+124-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Priyanka Meti\.gradle\caches\transforms-3\4500fb234d907684d5cb88345353e771\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+124-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Priyanka Meti\.gradle\caches\transforms-3\4500fb234d907684d5cb88345353e771\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+125            </intent-filter>
+126            <intent-filter>
+126-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Priyanka Meti\.gradle\caches\transforms-3\4500fb234d907684d5cb88345353e771\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+127                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+127-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Priyanka Meti\.gradle\caches\transforms-3\4500fb234d907684d5cb88345353e771\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+127-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Priyanka Meti\.gradle\caches\transforms-3\4500fb234d907684d5cb88345353e771\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+128            </intent-filter>
+129        </receiver>
+130    </application>
+131
+132</manifest>

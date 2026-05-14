@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Unique Minimalist: Man Writing in Ledger -->
+
+    <!-- The Ledger (Open Flat on Table) -->
+    <!-- Cover -->
+    <path
+        android:fillColor="@color/brand_primary"
+        android:pathData="M20,60 L54,72 L88,60 L88,63 L54,75 L20,63 Z" />
+    <!-- Pages -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M22,58 L54,70 L86,58 L86,78 L54,90 L22,78 Z"
+        android:strokeWidth="1"
+        android:strokeColor="@color/brand_primary" />
+
+    <!-- Person (Silhouette leaning over) -->
+    <!-- Head -->
+    <path
+        android:fillColor="@color/brand_primary"
+        android:pathData="M48,20 A7,7 0,1,1 62,20 A7,7 0,1,1 48,20" />
+
+    <!-- Torso/Arm in writing motion -->
+    <path
+        android:fillColor="@color/brand_primary"
+        android:pathData="M35,32 Q55,26 75,32 L82,55 Q60,50 30,55 Z" />
+
+    <!-- Premium Pen (Handheld, Gold) -->
+    <path
+        android:fillColor="@color/brand_accent"
+        android:pathData="M65,50 L75,40 L80,45 L70,55 Z" />
+
+    <!-- Pen Tip (Touching the page) -->
+    <path
+        android:fillColor="@color/brand_primary"
+        android:pathData="M65,50 L63,53 L66,52 Z" />
+
+    <!-- Ledger Detail Lines -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M60,65 h15 M60,72 h10 M60,79 h12"
+        android:strokeWidth="1"
+        android:strokeColor="@color/brand_primary"
+        android:strokeAlpha="0.3" />
+
+</vector>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="100dp"
+    android:height="100dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+
+    <!-- Background (Optional, but let's keep it clean white if "no outer shape" is desired) -->
+    <!-- Note: Launchers will still apply a mask, so we design within a safe center -->
+
+    <!-- Open Book / Ledger -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M20,50 L50,60 L80,50 L80,80 L50,90 L20,80 Z"
+        android:strokeWidth="2"
+        android:strokeColor="@color/brand_primary" />
+
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M50,60 L50,90"
+        android:strokeWidth="2"
+        android:strokeColor="@color/brand_primary" />
+
+    <!-- Person (Minimalist Silhouette) -->
+    <!-- Head -->
+    <path
+        android:fillColor="@color/brand_primary"
+        android:pathData="M50,15 A8,8 0,1,1 50,31 A8,8 0,1,1 50,15" />
+
+    <!-- Body/Shoulders leaning down -->
+    <path
+        android:fillColor="@color/brand_primary"
+        android:pathData="M30,45 Q50,35 70,45 L75,60 Q50,55 25,60 Z" />
+
+    <!-- Writing Hand & Pen -->
+    <path
+        android:fillColor="@color/brand_accent"
+        android:pathData="M65,55 L75,45 L80,50 L70,60 Z" />
+
+    <path
+        android:fillColor="@color/brand_primary"
+        android:pathData="M65,55 L62,58 L66,57 Z" />
+
+</vector>

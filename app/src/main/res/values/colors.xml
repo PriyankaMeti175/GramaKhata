@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Colors (Dark for Buttons/Icons) -->
+    <color name="brand_primary">#004D40</color> <!-- Deep Professional Teal -->
+    <color name="brand_primary_dark">#00242C</color>
+    <color name="brand_primary_light">#4DB6AC</color>
+    <color name="brand_accent">#FFD600</color> <!-- Premium Gold Accent -->
+
+    <!-- UI Backgrounds (Light & Clean) -->
+    <color name="bg_main">#E2E8E7</color> <!-- More contrast against white cards -->
+    <color name="bg_card">#FFFFFF</color>
+
+
+    <color name="bg_header">#E0F2F1</color> <!-- Soft light teal for header -->
+
+    <!-- Status Colors -->
+    <color name="red_high">#B71C1C</color>
+    <color name="red_high_bg">#FFEBEE</color>
+    <color name="amber_mid">#E65100</color>
+    <color name="amber_mid_bg">#FFF3E0</color>
+    <color name="green_paid">#1B5E20</color>
+    <color name="green_paid_bg">#E8F5E9</color>
+
+    <!-- Text Colors -->
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#455A64</color>
+    <color name="text_hint">#90A4AE</color>
+    <color name="text_on_primary">#FFFFFF</color>
+    <color name="text_on_header">#004D40</color> <!-- Dark text for light header -->
+
+    <!-- Others -->
+    <color name="divider">#B2DFDB</color>
+    <color name="stroke_color">#004D40</color> <!-- Added for clear borders -->
+    <color name="ripple">#1A004D40</color>
+
+    <!-- Material Standard -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>
